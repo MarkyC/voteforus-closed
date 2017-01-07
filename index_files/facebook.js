@@ -1,0 +1,1 @@
+window.fbAsyncInit=function(){console.log("Fb.init"),FB.init({appId:window.FACEBOOK_APP_ID,xfbml:!0,version:"v2.7"}),console.log("facebook initialized")},function(e,n,o){var t,i=e.getElementsByTagName(n)[0];e.getElementById(o)||(t=e.createElement(n),t.id=o,t.src="//connect.facebook.net/en_US/sdk.js",i.parentNode.insertBefore(t,i))}(document,"script","facebook-jssdk");
